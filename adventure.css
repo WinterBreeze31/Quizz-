@@ -1,0 +1,49 @@
+body{
+	    font-family: 'Langar', cursive;
+	    background: url("img/background.gif");
+	    background-repeat: no-repeat;
+  		background-size: cover;
+}
+
+#description {
+	text-align: center;
+	background: white;
+	width: 400px;
+	height: 400px;
+	color: black;
+	position: fixed;
+	left: calc(50% - 200px);
+	border: black solid;
+	border-radius: 25%;
+	line-height: 50px;
+}
+
+#title{
+	text-align: center;
+	background: #3a1480;
+	border: black solid;
+}
+
+#game-buttons{
+	position: fixed;
+	top: 500px;
+	left: 49%;
+}
+
+#button1, #button2, #button3 {
+	background: #3a1480;
+	border: black solid;
+	border-radius: 30%;
+}
+
+#inventoryItem{
+	position: fixed;
+	left: calc(50% - 200px);
+	top: 500px;
+	background: red;
+	height: 50px;
+	width: 50px;
+	border-radius: 25%;
+	border: black solid;
+	display: none;
+}
